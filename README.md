@@ -2,14 +2,14 @@
 
 To run this sample:
 
-###Azure:
+### Azure:
 
 Create the following resources:
 - service bus namespace
 - event hub namespace
 - function app
 
-###Func:
+### Func:
 
 Replace in local.settings.json the following with values from azure:
 - EventHubConnectionString
@@ -18,4 +18,4 @@ Replace in local.settings.json the following with values from azure:
 
 Upload the function app to azure.
 
-###Xamarin
+### Xamarin
