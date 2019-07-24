@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btnResetConnection"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Reset connection"
+        local:layout_constraintEnd_toEndOf="parent"
+        local:layout_constraintStart_toStartOf="parent"
+        local:layout_constraintTop_toTopOf="parent"
+        local:MvxBind="Click CommandReset; Enabled IsListening" />
+    <MvvmCross.Droid.Support.V7.RecyclerView.MvxRecyclerView
+        android:id="@+id/grpRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        local:layout_constraintBottom_toTopOf="@+id/btnSendMessage"
+        local:layout_constraintEnd_toEndOf="parent"
+        local:layout_constraintStart_toStartOf="parent"
+        local:layout_constraintTop_toBottomOf="@+id/btnResetConnection"
+        local:MvxItemTemplate="@layout/cell_result"
+        local:MvxBind="ItemsSource Results" />
+    <Button
+        android:id="@+id/btnSendMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Send Message"
+        local:layout_constraintEnd_toEndOf="parent"
+        local:layout_constraintStart_toStartOf="parent"
+        local:layout_constraintBottom_toBottomOf="parent"
+        local:MvxBind="Click CommandSendMessage" />
+</android.support.constraint.ConstraintLayout>

@@ -19,3 +19,8 @@ Replace in local.settings.json the following with values from azure:
 Upload the function app to azure.
 
 ### Xamarin
+
+Replace in config.cs in servicebus.communication.core with values from azure:
+- Keyname
+- SharedAccessKey
+- Url
