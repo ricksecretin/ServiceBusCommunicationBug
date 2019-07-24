@@ -30,7 +30,7 @@ Replace in config.cs in servicebus.communication.core with values from azure:
 1. Use mobile device as hotspot
 2. Connect other device to that wifi
 3. Force mobile device to switch between network modes (4g -> 3g, 3g -> 2g, 2g -> 4g,...)
-4 The other device will no longer receive messages
+4. The other device will no longer receive messages
 
 In the application itself there are 2 buttons. The bottom button sends a message to the Eventhub which responds with a notification through the service bus.
 In a normal situation you will see "Message sent" followed by "Notification Received".
