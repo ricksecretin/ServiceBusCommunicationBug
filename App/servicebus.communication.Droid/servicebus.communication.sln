@@ -1,9 +1,12 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "servicebus.communication.Droid", "servicebus.communication.Droid\servicebus.communication.Droid.csproj", "{B527F969-1F10-4F20-B901-782C4F5FC9D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "servicebus.communication.Core", "servicebus.communication.Core\servicebus.communication.Core.csproj", "{9044295C-0766-440E-8922-BBBF597A040C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "servicebus.communication.Core", "servicebus.communication.Core\servicebus.communication.Core.csproj", "{9044295C-0766-440E-8922-BBBF597A040C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "servicebus.communication.Wpf", "servicebus.communication.Wpf\servicebus.communication.Wpf.csproj", "{1C8EE57E-2540-4494-80AE-4555D5A215B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,11 +16,22 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B527F969-1F10-4F20-B901-782C4F5FC9D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B527F969-1F10-4F20-B901-782C4F5FC9D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B527F969-1F10-4F20-B901-782C4F5FC9D2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{B527F969-1F10-4F20-B901-782C4F5FC9D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B527F969-1F10-4F20-B901-782C4F5FC9D2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9044295C-0766-440E-8922-BBBF597A040C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9044295C-0766-440E-8922-BBBF597A040C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9044295C-0766-440E-8922-BBBF597A040C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9044295C-0766-440E-8922-BBBF597A040C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C8EE57E-2540-4494-80AE-4555D5A215B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C8EE57E-2540-4494-80AE-4555D5A215B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C8EE57E-2540-4494-80AE-4555D5A215B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C8EE57E-2540-4494-80AE-4555D5A215B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86F876C2-11B2-4374-B4F9-E4685C093D83}
 	EndGlobalSection
 EndGlobal
